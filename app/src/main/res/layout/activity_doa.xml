@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><!--One Nested Parrent View-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgapp"
+    android:orientation="vertical"
+    android:padding="@dimen/width_10dp">
+    <!--One CardView-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--One PArrent View-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_puasa"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/my_images"
+                android:src="@drawable/niatpuasa" />
+
+            <!--One Nested Parrent View-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="casual"
+                    android:text="@string/doa_puasa"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_puasa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="puasa"
+                    android:text="@string/lihat" />
+            </LinearLayout>
+            <!--End One Nested Parrent View-->
+        </LinearLayout>
+        <!--End One Parent View-->
+    </android.support.v7.widget.CardView>
+    <!--End One CardView-->
+
+    <!--Two CardView-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <!--One PArrent View-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/my_images"
+                android:src="@drawable/bukapuasa" />
+
+            <!--One Nested Parrent View-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="casual"
+                    android:text="@string/doa_buka_puasa"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_buka_puasa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="bukaPuasa"
+                    android:text="@string/lihat" />
+            </LinearLayout>
+            <!--End One Nested Parrent View-->
+        </LinearLayout>
+        <!--End One Parent View-->
+    </android.support.v7.widget.CardView>
+    <!--End One CardView-->
+</LinearLayout><!--End Two Nested Parrent View-->

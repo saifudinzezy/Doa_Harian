@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Doa Harian</string>
+    <string name="doa">Penemu dan Pembuat Aplikasi Doa-Doa</string>
+
+    <!--list Doa Puasa-->
+    <string name="doa_puasa">Doa Puasa</string>
+    <string name="doa_puasa_arab" translatable="false">نَوَيْتُ صَوْمَ غَدٍ عَنْ اَدَاءِ فَرْضِ شَهْرِ رَمَضَانَ هذِهِ السَّنَةِ ِللهِ تَعَالَى</string>
+    <string name="doa_puasa_arti">Saya niat berpuasa esok hari untuk menunaikan fardhu di bulan Ramadhan tahun ini, karena Allah Ta\'ala</string>
+    <!--list Doa Buka Puasa-->
+    <string name="doa_buka_puasa">Doa Buka Puasa</string>
+    <string name="doa_buka_puasa_arab" translatable="false">اَللّهُمَّ لَكَ صُمْتُ وَبِكَ آمَنْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ بِرَحْمَتِكَ يَا اَرْحَمَ الرَّحِمِيْن</string>
+    <string name="doa_buka_puasa_arti">Ya Allah keranaMu aku berpuasa, dengan Mu aku beriman, kepadaMu aku berserah dan dengan rezekiMu aku berbuka (puasa), dengan rahmat MU, Ya Allah Tuhan Maha Pengasih.</string>
+
+    <string name="motto">“Manusia yang paling dicintai oleh Allah adalah yang paling bermanfaat untuk manusia.
+        Dan amalan yang paling dicintai oleh Allah adalah <b>kegembiraan</b> yang engkau <b><i>masukan ke
+            hati seorang mukmin, atau engkau hilangkan salah satu kesusahannya, atau engkau
+            membayarkan hutangnya, atau engkau hilangkan kelaparannya.</i></b> Dan aku berjalan
+bersama saudaraku untuk memenuhi kebutuhannya itu lebih aku cintai daripada
+ber-i’tikaf di masjid Nabawi selama sebulan lamanya. <b><i>Dan siapa yang menahan marahnya
+maka Allah akan tutupi auratnya. Barangsiapa yang menahan marahnya padahal ia bisa
+            menumpahkannya, maka Allah akan penuhi hatinya dengan keridhaan di hari kiamat.</i></b> Dan
+barangsiapa berjalan bersama saudaranya sampai ia memenuhi kebutuhannya, maka
+Allah akan mengokohkan kedua kakinya di hari ketika banyak kaki-kaki terpeleset ke api
+neraka” <b>(HR. Ath Thabrani 6/139, dishahihkan Al Albani dalam Silsilah Ash Shahihah
+            2/575)</b></string>
+    <string name="template_text_judul_doa">Ini Adalah Text Nama Doa</string>
+    <string name="template_text_arab_doa">Ini Adalah Tempat Doa doa</string>
+    <string name="template_text_arti_doa">Ini Adalah Tempat Doa doa</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_stop">STOP</string>
+    <string name="lihat">Lihat</string>
+    <string name="my_images">my images</string>
+    <string name="doa_doa">Doa-Doa</string>
+    <string name="kumpulan_doa_doa">Kumpulan Doa-Doa</string>
+    <string name="profil">Profil</string>
+    <string name="profil_saya">Profil Saya</string>
+    <string name="motto_1">motto</string>
+</resources>
